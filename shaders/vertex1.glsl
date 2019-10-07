@@ -20,8 +20,8 @@ void main() {
   // gl_Position = vec4(vPosition, 0.0, 1.0) * translasi;
   
   mat4 rotasi = mat4(
-      cos(theta) , -sin(theta)  , 0, 0.437*cos(theta) + 0.25*sin(theta) + (-0.437),
-      sin(theta) , cos(theta)   , 0, 0.437*sin(theta) - 0.25*cos(theta) + 0.25,
+      cos(theta) , -sin(theta)  , 0, 0.65*cos(theta)-0.65,
+      sin(theta) , cos(theta)   , 0, 0.65*sin(theta),
       0           , 0             , 1, 0,
       0           , 0             , 0, 1
   );
